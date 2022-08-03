@@ -10,3 +10,13 @@
 body {
     background: $body-color;
 }
+
+.container {
+    padding: 0 24px;
+    margin: 0 auto;
+}
+
+
+@import 'blocks/header';
+@import 'blocks/start';
+@import 'blocks/choose';
