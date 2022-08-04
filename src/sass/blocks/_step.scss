@@ -1,0 +1,114 @@
+.step {
+    padding: 0 0 100px 0;
+    &__title {
+        font-weight: 700;
+        font-size: 25px;
+        text-align: center;
+        color: #171717;
+        margin-bottom: 28px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+    &__info {
+        padding: 20px;
+        width: 327px;
+        min-height: 171px;
+        border-radius: 32px;
+        background: #fff;
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &_img {
+            width: 93px;
+            height: 93px;
+            img{
+                width: 100%;
+            }
+        }
+        &_subtitle {
+            font-weight: 700;
+            font-size: 19px;
+            color: #171717;
+        }
+        &_descr {
+            margin-top: 12px;
+            font-weight: 400;
+            font-size: 17px;
+            color: #333333;
+        }
+    }
+    &__invite {
+        padding: 32px 20px 20px 20px;
+        width: 100%;
+        min-height: 344px;
+        background: $main-color;
+        box-shadow: 0px 4px 24px rgba(213, 216, 221, 0.2);
+        border-radius: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        &_subtitle {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 140%;
+            color: #FFFFFF;
+            margin-bottom: 16px;
+        } 
+        &_descr {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+            margin-bottom: 32px;
+        }
+        &_click {
+            width: 100%;
+            min-height: 114px;
+            background: #F1F4F8;
+            border-radius: 16px;
+            padding: 28px 33px;
+            position: relative;
+            p {
+                text-align: center;
+                font-weight: 400;
+                font-size: 18px;
+                color: #171717;
+                margin-bottom: 18px;
+            }
+            a {
+                display: block;
+                font-weight: 400;
+                font-size: 14px;
+                text-align: center;
+                text-decoration-line: underline;
+                text-transform: uppercase;
+                color: $main-color;
+                position: relative;
+                padding-right: 15px;
+                &:after {
+                    content: "";
+                    position: absolute;
+                    
+                    width: 18px;
+                    height: 18px;
+                    background: url('../../icons/double_link.svg') center / 18px 18px no-repeat;
+                    
+                }
+            }
+            // img {
+            //     position: absolute;
+            //     width: 18px;
+            //     height: 18px;
+            //     right: 33px;
+            // }
+        }     
+    }
+    
+}

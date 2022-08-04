@@ -1,0 +1,80 @@
+.faq {
+    padding: 0 0 100px 0;
+    &__title {
+        font-weight: 700;
+        font-size: 25px;
+        text-align: center;
+        color: #171717;
+        margin-bottom: 28px;
+    }
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__questions {
+        width: 100%;
+        min-height: 144px;
+        background: #FFFFFF;
+        box-shadow: 0px 12px 28px rgba(244, 245, 245, 0.2);
+        border-radius: 24px;
+        margin-bottom: 16px;
+        &:nth-last-child(1) {
+            margin-bottom: 0;
+        }
+        &_descr {
+            position: relative;
+            padding: 20px 80px 20px 20px;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 150%;
+            color: #171717;
+            &:after {
+                content: "";
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                background: rgba(23, 23, 23, 0.05);
+                border-radius: 12px;
+            }
+            &:before {
+                content: "";
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                background: url('../../icons/down.svg') center / 14px 8px no-repeat;
+                
+            }
+            p {
+                margin-top: 15px;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 150%;
+                color: #333333;
+            }
+        }
+    }
+}
+.btn-supp {
+    display: block;
+    width: 243px;
+    height: 48px;
+    left: 65px;
+    background: #333333;
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 12px;
+    margin: 28px auto 0 auto;
+    &:hover {
+        color: #333333;
+        background: #fff;
+    }
+}

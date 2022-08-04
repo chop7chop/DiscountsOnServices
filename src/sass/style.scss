@@ -2,7 +2,8 @@
 
 
 * {
-    font-family: 'Gotham Pro Regular','Gotham Pro Bold', sans-serif;
+    font-family: 'Gotham Pro', sans-serif;
+    // font-family: 'Gotham Pro Bold' , sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -20,3 +21,8 @@ body {
 @import 'blocks/header';
 @import 'blocks/start';
 @import 'blocks/choose';
+@import 'blocks/step';
+@import 'blocks/about';
+@import 'blocks/faq';
+@import 'blocks/more';
+@import 'blocks/footer';
