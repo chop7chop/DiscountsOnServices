@@ -12,7 +12,7 @@
         justify-content: space-between;
         align-items: center;
         &_title {
-            font-weight: 400;
+            font-weight: 500;
             line-height: 130%;
             font-size: 22px;
             color: #FFFFFF;
@@ -29,6 +29,7 @@
 }
 
 .btn-request {
+    cursor: pointer;
     display: block;
     width: 287px;
     height: 48px;
@@ -40,6 +41,7 @@
     text-align: center;
     color: #171717;
     border: none;
+    transition: 0.5s all;
     &:hover {
         color: #fff;
         background: $main-color;

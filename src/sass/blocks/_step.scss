@@ -55,7 +55,7 @@
         justify-content: space-between;
         align-items: center;
         &_subtitle {
-            font-weight: 400;
+            font-weight: 500;
             font-size: 22px;
             line-height: 140%;
             color: #FFFFFF;
@@ -84,18 +84,18 @@
             }
             a {
                 display: block;
-                font-weight: 400;
+                font-weight: 500;
                 font-size: 14px;
                 text-align: center;
                 text-decoration-line: underline;
                 text-transform: uppercase;
                 color: $main-color;
                 position: relative;
-                padding-right: 15px;
                 &:after {
                     content: "";
+                    display: inline-block;
+                    padding-right: 15px;
                     position: absolute;
-                    
                     width: 18px;
                     height: 18px;
                     background: url('../../icons/double_link.svg') center / 18px 18px no-repeat;

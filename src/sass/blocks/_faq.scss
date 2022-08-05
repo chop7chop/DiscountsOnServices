@@ -25,8 +25,8 @@
         &_descr {
             position: relative;
             padding: 20px 80px 20px 20px;
-            font-weight: 700;
-            font-size: 18px;
+            font-weight: 500;
+            font-size: 17px;
             line-height: 150%;
             color: #171717;
             &:after {
@@ -60,6 +60,7 @@
     }
 }
 .btn-supp {
+    cursor: pointer;
     display: block;
     width: 243px;
     height: 48px;
@@ -73,6 +74,7 @@
     color: #FFFFFF;
     margin-top: 12px;
     margin: 28px auto 0 auto;
+    transition: 0.5s all;
     &:hover {
         color: #333333;
         background: #fff;

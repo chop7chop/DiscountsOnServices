@@ -1,0 +1,180 @@
+@media (min-width:768px){
+    .container {
+        padding: 0 32px;
+    }
+    .logo {
+        &__link {
+            span {
+                display: inline-block;
+            }
+        }
+    }
+
+    .start {
+        &__img {
+            width: 344px;
+            min-height: 290px;
+            order: 2;
+        }
+        &__enjoy {
+            width: 344px;
+            min-height: 291px;
+            order: 1;
+        }
+    }
+
+    .button-start {
+        width: 207px;
+    }
+
+    .choose {
+        &__title {
+            margin-bottom: 32px;
+        }
+        &__netflix , &__spotify , &__youtube {
+            width: 100%;
+        }
+        &__logo {
+            width: 344px;
+            height: 200px;
+            padding: 39px 85px;
+            right: 32px;
+            &_spotify {
+                width: 344px;
+                height: 200px;
+                right: 32px;
+            }
+            &_youtube {
+                width: 344px;
+                height: 200px;
+                right: 32px;
+                padding: 80px ;
+            }
+        }
+        &__about {
+            width: 100%;
+            min-height: 200px;
+            padding: 49px 373px 48px 32px;
+        }
+
+        &__descr {
+            display: none;
+        }
+    }
+
+    .button-learn {
+        width: 135px;
+    }
+
+    .step {
+        &__title {
+            margin-bottom: 32px;
+        }
+        &__info {
+            width: 224px;
+            min-height: 185px;
+            img {
+                width: 81px;
+                height: 81px;
+            }
+            &_descr {
+                margin-top: 20px;
+            }
+        }
+        &__invite {
+            padding: 32px;
+            min-height: 210px;
+            flex-direction: row;
+            &_descr {
+                margin-bottom: 0;
+                width: 275px;
+            }
+            &_click {
+                width: 336px;
+                min-height: 104px;
+                a {
+                    font-size: 18px;
+                }
+            }
+        }
+
+    }
+    .about {
+        &__title {
+            margin-bottom: 32px;
+        }
+        &__picture {
+            width: 344px;
+            order: 2;
+        }
+        &__us {
+            width: 344px;
+            order: 1;
+        }
+    }
+    .faq {
+        &__title {
+            margin-bottom: 32px;
+        }
+        &__questions {
+            min-height: 92px;
+            &_descr {
+                padding-right: 186px;
+            }
+        }
+    }
+    .btn-supp {
+        margin-top: 32px;
+    }
+    .more {
+        &__info {
+            padding: 32px;
+            min-height: 186px;
+            div {
+                width: 356px;
+            }
+            &_title {
+                font-size: 19px;
+            }
+            &_subtitle {
+                font-size: 16px;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .btn-request {
+        width: 239px;
+    }
+    .footer {
+        padding: 40px 0 0 0;
+        min-height: 266px;
+        &__wrapper {
+            flex-flow: row;
+            margin-bottom: 0;
+        }
+        &__logo {
+            
+            width: 179px;
+            a {
+                display: block;
+                span {
+                    display: none;
+                }
+            }
+        }
+        &__info {
+            gap: 55px;
+        }
+        &__socials {
+            display: block;
+            &_lang {
+                margin-top: 16px;
+                justify-content: flex-end;
+            }
+        }
+        &__copyright {
+            justify-content: space-between;
+            flex-direction: row;
+        }
+    }
+}

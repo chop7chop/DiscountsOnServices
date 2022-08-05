@@ -6,9 +6,10 @@
         display: flex;
         justify-content: space-between;
         flex-flow: column;
+        margin-bottom: 40px;
     }
     &__logo {
-        margin-bottom: 40px;
+        
         a {
             display: inline-block;
             height: 44px;
@@ -21,7 +22,7 @@
         }
         span {
             margin-left: 56px;
-            font-weight: 400;
+            font-weight: 500;
             font-size: 16px;
             line-height: 150%;
             color: #FFFFFF;
@@ -31,18 +32,19 @@
             font-size: 16px;
             line-height: 150%;
             color: #FFFFFF;
+            margin-bottom: 40px;
         }
     }
     &__info {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 40px;
+        max-width: 500px;
         &_subs, &_nav {
             display: flex;
             flex-direction: column;
-            
+            margin-bottom: 40px;
             p {
-                font-weight: 400;
+                font-weight: 500;
                 font-size: 18px;
                 line-height: 150%;
                 color: #FFFFFF;
@@ -69,7 +71,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 40px;
         &_net {
             display: flex;
             gap: 16px;
@@ -83,7 +84,7 @@
             ul {
                 list-style: none;
                 li {
-                    font-weight: 400;
+                    font-weight: 500;
                     font-size: 17px;
                     line-height: 150%;
                     color: #FFFFFF;
